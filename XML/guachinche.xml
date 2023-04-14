@@ -1,0 +1,18 @@
+<?xml version=	"1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="guachinche.xsl" type="text/xsl"?>
+
+<!DOCTYPE guachinche [
+<!ELEMENT carta (entrantes, primer_plato, segundo_plato, postre)>
+<!ELEMENT entrantes (#PCDATA)>
+<!ELEMENT primer_plato (#PCDATA)>
+<!ELEMENT segundo_plato (#PCDATA)>
+<!ELEMENT postre (#PCDATA)>
+<guachinche>
+	<carta>
+		<entrantes>pimientos de padrón, croquetas, queso blanco, escaldón con carne, champiñones rellenos</entrantes>
+		<primer_plato>fabada, garbanzos, potaje, lentejas, rancho</primer_plato>
+		<segundo_plato>salchichas en salsa, conejo frito, papas con piña y costillas, crane fiesta</segundo_plato>
+		<postre>quesillo, polvito uruguayo, tiramisú, arroz con leche</postre>
+	</carta>
+</guachinche>
+			

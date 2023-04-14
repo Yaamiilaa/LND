@@ -1,0 +1,44 @@
+<?xml version=	"1.0" encoding="UTF-8" ?>
+<!DOCTYPE consesionario>
+<!ELEMENT coche (marca, modelo, motor, atrícula, kilometraje, precio_original, precio_oferta, extras, fotos)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT matrícula (#PCDATA)>
+<!ELEMENT kilometraje (#PCDATA)>
+<!ELEMENT precio_original (#PCDATA)>
+
+<consesionario>
+	<coche>
+		<marca>Ford</marca>
+		<modelo>Fiesta</modelo>
+		<motor>2.0</motor>
+		<matrícula>4865 GRT</matrícula>
+		<kilometraje>395.254</kilometraje>
+		<precio_original>10.000</precio_original>
+		<precio_oferta>6.500</precio_oferta>
+		<extras>Suspención roscada, separadores, alerón, luces led, llantas, repro y filtro cónico</extras>
+		<fotos/>
+	</coche>
+	<coche>
+	<marca>Honda</marca>
+	<modelo>Civic</modelo>
+	<motor>2.0</motor>
+	<matrícula>2563 PHT</matrícula>
+	<kilometraje>208.651</kilometraje>
+	<precio_original>20.000</precio_original>
+	<precio_oferta>18.500</precio_oferta>
+	<extras>Alerón, luces led y llantas</extras>
+	<fotos/>
+	</coche>
+	<coche>
+		<marca>Volkswagen</marca>
+		<modelo>Golf</modelo>
+		<motor>1.6</motor>
+		<matrícula>3591 ÑJN</matrícula>
+		<kilometraje>395.783</kilometraje>
+		<precio_original>25.000</precio_original>
+		<precio_oferta/>
+		<extras>Suspención roscada, alerón, llantas, repro y filtro cónico</extras>
+		<fotos/>
+	</coche>
+</consesionario>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE receta[
+	<!ELEMENT receta (nombre, ingredientes,preparación)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT ingredientes (ingrediente*)>
+	<!ELEMENT ingrediente (#PCDATA)>
+	<!ELEMENT preparación (paso*)>
+	<!ELEMENT paso (#PCDATA)>
+	<!ATTLIST receta raciones NMTOKEN #REQUIRED>
+	<!ATTLIST receta nivel (baja | media | alta) "media">
+	<!ATTLIST ingrediente cantidad NMTOKEN #REQUIRED>
+	<!ATTLIST ingrediente unidad ID #REQUIRED>
+]>
+
+<receta raciones="2" nivel="baja">
+	<nombre>Salmón al horno</nombre>
+	<ingredientes>
+		<ingrediente cantidad="2" unidad="trozos">Salmón fresco</ingrediente>
+		<ingrediente cantidad="80" unidad="gramos">Mayonesa</ingrediente>
+		<ingrediente cantidad="1" unidad="huevo">Clara de huevo</ingrediente>
+		<ingrediente cantidad="0.5" unidad="ajo">Diente de ajo</ingrediente>
+		<ingrediente cantidad="1" unidad="entero">Limón</ingrediente>
+		<ingrediente cantidad="1" unidad="pizca">Sal</ingrediente>
+	</ingredientes>
+	<preparación>
+		<paso>Encendemos el horno, con calor arriba y abajo, a 200º C.</paso>
+		<paso>impiamos y secamos los lomos de salmón, asegurando que no quedan escamas en la piel. </paso>
+		<paso>Sazonamos, colocamos en una fuente de horno y reservamos.</paso>
+		<paso>Pelamos el diente de ajo, rallamos la mitad y lo mezclamos con la mayonesa.</paso>
+		<paso>Añadimos un poco de ralladura de limón y removemos.</paso>
+		<paso>Batimos la clara de huevo a punto de nieve. Mezclamos con la mayonesa suavemente y con movimientos envolventes para que no pierda el aire incorporado con el batido</paso>
+		<paso> Extendemos una capa de la espuma de mayonesa sobre los lomos de salmón, introducimos en el horno y cocemos durante 10 minutos (el tiempo exacto dependerá del grosor de los lomos)</paso>
+		<paso>Si, una vez hecho el salmón, la superficie no se dorara y quisiéramos darle un poco de color, añadimos un toque de grill final.</paso>
+	</preparación>
+</receta>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

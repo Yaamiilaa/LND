@@ -1,0 +1,79 @@
+﻿<!-- Crea de un elemento simple de nombre edad que representa la edad de un
+alumno de la ESO, por tanto su rango está entre los 12 y los 18 años. -->
+<xs:element name="edad">
+  <xs:simpleType></xs:simpleType>
+    <xs:restriction base="xsd:positiveInteger">
+      <xs:minInclusive value="12"/>
+      <xs:minInclusive value="18"/>
+    </xs:restriction>
+  </xs:simpleType >
+</xs:element>
+
+<!--- Creación de una lista con los días de la semana en letras.-->
+<xs:simpleType name="dia_semana" base="xs:string" derivedBy="list"/>
+    <dia_semana>Lunes Martes Miercoles Jueves Viernes Sabado Domingo<dia_semana>
+</xs:simpleType>
+
+<!--- Creación de un elemento compuesto de nombre alumno, formado por los
+elementos nombre, apellidos, web personal.--->
+<xs:complexType name="alumno">
+    <xs:secuence>
+        <xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="apellidos" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="web" type="xs:string" minOccurs="0" maxOccurs="5">
+        <xs:complexType>
+            <xs:attribute name="href" type="xs:string"/>
+        </xs:complexType>
+        </xs:element>
+    <xs:secuence>
+ </xs:complexType>
+ 
+ <!--- Dado el ejemplo de esquema siguiente: -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- elemento raíz -->
+<xs:element name="alumnos" type="datosAlum"/>
+<!-- Definicion del tipo datosAlum -->
+<xs:complexType name="datosAlum">
+<xs:sequence>
+<xs:element name="alumno" type="datos" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+<!-- Definicion del tipo datos -->
+<xs:complexType name="datos">
+<xs:sequence>
+<xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="apellidos" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="direccion" type="datosDireccion" minOccurs="1" maxOccurs="1"/>
+<xs:element name="contactar" type="datosContactar" minOccurs="1" maxOccurs="1"/>
+</xs:sequence>
+<!-- Atributos del elemento usuario -->
+<xs:attribute name="id" type="xs:string"/>
+</xs:complexType>
+<xs:complexType name="datosDireccion">
+<xs:sequence>
+<xs:element name="domicilio" type="xs:string" minOccurs="0" maxOccurs="1"/>
+<xs:element name="codigo_postal" minOccurs="0" maxOccurs="1" >
+<xs:complexType>
+<xs:attribute name="cp" type="xsd:string"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="localidad" type="xs:string" minOccurs="0" maxOccurs="1"/>
+<xs:element name="provincia" type="xs:string" minOccurs="0" maxOccurs="1"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="datosContactar">
+<xs:sequence>
+<xs:element name="telf_casa" type="xs:string" minOccurs="0" maxOccurs="1"/>
+<xs:element name="telf_movil" type="xs:string" minOccurs="0" maxOccurs="1"/>
+<xs:element name="telf_trabajo" type="xs:string" minOccurs="0" maxOccurs="1"/>
+<xs:element name="email" minOccurs="0" maxOccurs="unbounded" >
+<xs:complexType>
+<xs:attribute name="href" type="xs:string"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema> 
+<1--- Construye un documento XML que cumpla las especificaciones definidas en el
+archivo XML Schema---></1--->

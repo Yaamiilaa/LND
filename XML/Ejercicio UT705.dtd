@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT libreria (libro*)>
+<!ELEMENT libro (nombre,nombre-autor,apellido-autor+,editorial,email-autor?, direccion )>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nombre-autor (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT email-autor (#PCDATA)>
+
+<!ELEMENT direccion (calle, numero, cp)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+
+<!ATTLIST editorial pais CDATA #REQUIRED >

@@ -1,0 +1,67 @@
+<?xml version=	"1.0" encoding="UTF-8" ?>
+<libreria>
+	<libreria1>
+		<libro>
+			<codigo_ISBN>0-1354-78932</codigo_ISBN>
+			<título>Harry Potter</título>
+			<profundidad>Intermedio</profundidad>
+			<autores>J.K.Rowling</autores>
+			<editorial>Bloomsbury Salamandra Scholastic</editorial>
+			<fecha_de_publicacion>26 de junio de 1997</fecha_de_publicacion>
+			<web/>
+			<precio>70</precio>
+		</libro>
+		<libro>
+			<codigo_ISBN>1-2539-41665</codigo_ISBN>
+			<título>La selección</título>
+			<profundidad>Medio</profundidad>
+			<autores>Kiera Cass</autores>
+			<editorial>Bloomsbury Salamandra Scholastic</editorial>
+			<fecha_de_publicacion>14 de abril de 2012</fecha_de_publicacion>
+			<web/>
+			<precio>40</precio>
+		</libro>
+		<libro>
+			<codigo_ISBN>1-2539-41665</codigo_ISBN>
+			<título>La selección</título>
+			<profundidad>Medio</profundidad>
+			<autores>Kiera Cass</autores>
+			<editorial>Bloomsbury Salamandra Scholastic</editorial>
+			<fecha_de_publicacion>14 de abril de 2012</fecha_de_publicacion>
+			<web/>
+			<precio>40</precio>
+		</libro>
+	</libreria1>
+	<libreria2>
+		<libro>
+			<codigo_ISBN>1-2539-41665</codigo_ISBN>
+			<título>La selección</título>
+			<profundidad>Medio</profundidad>
+			<autores>Kiera Cass</autores>
+			<editorial>Bloomsbury Salamandra Scholastic</editorial>
+			<fecha_de_publicacion>14 de abril de 2012</fecha_de_publicacion>
+			<web/>
+			<precio>40</precio>
+		</libro>
+		<libro>
+			<codigo_ISBN>1-2539-41665</codigo_ISBN>
+			<título>La selección</título>
+			<profundidad>Medio</profundidad>
+			<autores>Kiera Cass</autores>
+			<editorial>Bloomsbury Salamandra Scholastic</editorial>
+			<fecha_de_publicacion>14 de abril de 2012</fecha_de_publicacion>
+			<web/>
+			<precio>40</precio>
+		</libro>
+		<libro>
+			<codigo_ISBN>1-2539-41665</codigo_ISBN>
+			<título>La selección</título>
+			<profundidad>Medio</profundidad>
+			<autores>Kiera Cass</autores>
+			<editorial>Bloomsbury Salamandra Scholastic</editorial>
+			<fecha_de_publicacion>14 de abril de 2012</fecha_de_publicacion>
+			<web/>
+			<precio>40</precio>
+		</libro>
+	</libreria2>
+</libreria>

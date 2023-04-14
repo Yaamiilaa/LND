@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "Ejercicio UT705.dtd">
+<libreria>
+	<libro>
+		<nombre>Al final mueren los dos</nombre>
+		<nombre-autor>Adam</nombre-autor>
+		<apellido>Silvera</apellido>
+		<apellido>Hernandez</apellido>
+		<editorial pais="España">PUCK</editorial>
+		<email-autor>Adam.Sil.Hdez@gmail.com</email-autor>
+		<direccion>
+			<calle>C/ Don Nicolás el Médico</calle>
+			<numero>4</numero>
+			<cp>38480</cp>
+		</direccion>
+	</libro>
+</libreria>
