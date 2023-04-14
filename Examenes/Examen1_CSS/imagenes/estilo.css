@@ -1,0 +1,104 @@
+/* CSS Document */
+
+* {margin: 0;
+   padding: 100;
+	} 
+
+body{
+	font: Georgia, "Times New Roman", Serif;
+	font-size: 16px;
+	overflow:auto;
+}
+p {padding-bottom: 6px;
+	padding-top: 6px;
+	margin-right:70%;
+	margin-left: 10%;
+}
+
+h1 {
+	padding-top: 40px;
+	padding-left: 112px;
+	color: black;
+}
+
+h2 {
+	padding-top: 0px;
+	padding-left: 112px;
+	color: #b3b79b;
+}
+
+h3 {
+	color: #8D926A;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 13%;
+}
+
+#caja_nav ul{
+	padding: 16px 0 2px;
+	margin-left: 160px;
+	list-style-type: none;
+	color: #bb6633;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+li { display: inline; 
+
+}
+
+li a{
+text-decoration: none;
+color: black;
+padding: .2em 1em;
+}
+
+li a:hover{
+color: #111111;
+background-color: white;
+}
+
+#principal{
+	height: 399PX;
+	width: 741px;
+	background-image:url(fondo.jpg);
+}
+
+#barraenlace{
+	height: 43px;
+	width: 741px;
+	background-image: url(barra_enlace.jpg);
+}
+
+#top_contenido{
+	height: 135px;
+	width: 741px;
+	background-image: url(top.jpg);
+}
+
+#principal_contenido{
+	height: auto;
+	position:relative;
+	font-size: medium;
+	background-image: url(body_tile.jpg);
+	background-repeat: repeat-y;
+}
+
+#pie{
+	height: 78px;
+	background-color:#8D926A;
+	margin-top:10px;
+	border-top: 15px;
+	border-radius: 15px;
+	color: white;
+	text-align: center;
+}
+
+blockquote{
+	margin-left: 13%;
+	margin-top: 2%;
+	font-style: italic;
+
+}

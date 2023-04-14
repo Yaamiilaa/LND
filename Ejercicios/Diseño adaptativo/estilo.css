@@ -1,0 +1,21 @@
+.contenedor {
+    background: grey;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+.item{
+    background: black;
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+}
+.item-1{background:#00F;}
+.item-2{background:#00a}
+.item-3{background:#005; flex-grow: 2;}

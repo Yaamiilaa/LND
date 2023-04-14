@@ -1,0 +1,28 @@
+#frase1{
+    color: blue;
+}
+.frases-celebres{
+    color: green;
+}
+p{
+    color: red;
+}
+#noticia {
+    background: linear-gradient(rgba(2, 53, 29, 0.459),rgba(0, 255, 136, 0.459));
+    padding: 2mm; 
+}
+h2~p{
+    text-align: center;
+}
+h2~div{
+    text-align: center;
+}
+li:first-child {
+    color: red;
+}
+li:last-child {
+    color: blue;
+}
+li:nth-child(10) {
+    color: green
+}
