@@ -1,0 +1,45 @@
+* {
+    font-size: Arial, Verdana;
+}
+
+h3 {
+    color: #30A010;
+}
+
+h4 {
+    color: #30A010;
+}
+
+h1{
+    color: #106610;
+}
+
+p {
+    color:   #106610;
+}
+
+th {
+    color: #106610;
+}
+
+td {
+    color: #106610;
+}
+
+table th{
+    background-color: #DDDD80;
+    color: #30A010;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.title{
+    background-color: #DDDD80; 
+    text-align: center;
+    padding: 20px;
+}
+
+.recetas {
+    color:   #106610;
+}
