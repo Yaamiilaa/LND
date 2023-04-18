@@ -51,11 +51,11 @@ ies/ciclos/ciclo/decretoTitulo/@año
 
 * Ciclos Formativos de Grado Medio (se trata de obtener el elemento <ciclo> completo):
   
-  ies/ciclos/ciclo[grado='Medio']
+ies/ciclos/ciclo[grado='Medio']
   
 * Nombre de los Ciclos Formativos de Grado Superior:
   
-  ies/ciclos/ciclo[grado='Superior']/nombre
+ies/ciclos/ciclo[grado='Superior']/nombre
   
 * Nombre de los Ciclos Formativos anteriores a 2010:
   
