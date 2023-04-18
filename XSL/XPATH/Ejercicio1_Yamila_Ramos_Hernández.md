@@ -5,27 +5,27 @@ deseada.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <ies>
-<nombre>IES Puerto de la Cruz – Telesforo Bravo</nombre>
-<web>
-https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruzte
-lesforobravo/</web>
-<ciclos>
-<ciclo id="ASIR">
-<nombre>Administración de Sistemas Informáticos en Red</nombre>
-<grado>Superior</grado>
-<decretoTitulo año="2009" />
-</ciclo>
-<ciclo id="DAM">
-<nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
-<grado>Superior</grado>
-<decretoTitulo año="2010" />
-</ciclo>
-<ciclo id="SMR">
-<nombre>Sistemas Microinformáticos y Redes</nombre>
-<grado>Medio</grado>
-<decretoTitulo año="2008" />
-</ciclo>
-</ciclos>
+  <nombre>IES Puerto de la Cruz – Telesforo Bravo</nombre>
+  <web>
+  https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruzte
+  lesforobravo/</web>
+  <ciclos>
+    <ciclo id="ASIR">
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <grado>Superior</grado>
+      <decretoTitulo año="2009" />
+      </ciclo>
+    <ciclo id="DAM">
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <grado>Superior</grado>
+      <decretoTitulo año="2010" />
+    </ciclo>
+    <ciclo id="SMR">
+      <nombre>Sistemas Microinformáticos y Redes</nombre>
+      <grado>Medio</grado>
+      <decretoTitulo año="2008" />
+    </ciclo>
+  </cicos>
 </ies>
 ```
 
