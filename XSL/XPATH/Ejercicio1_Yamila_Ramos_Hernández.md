@@ -59,4 +59,8 @@ ies/ciclos/ciclo[grado='Superior']/nombre
   
 * Nombre de los Ciclos Formativos anteriores a 2010:
   
-  
+ies/ciclos/ciclo/decretoTitulo[año<2010] | ies/ciclos/ciclo/nombre
+                                          
+* Nombre de los Ciclos Formativos de 2008 o 2010:
+                                          
+ies/ciclos/ciclo/decretoTitulo[año=2008 and año=2010] | ies/ciclos/ciclo/nombre
