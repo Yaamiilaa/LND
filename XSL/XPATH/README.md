@@ -1,0 +1,1 @@
+# Carpeta dedicada a los ejercicios de XPATH
