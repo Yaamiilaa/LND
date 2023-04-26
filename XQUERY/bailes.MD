@@ -73,6 +73,7 @@ for $baile in bailes/baile
 return $baile/nombre
 
 /* Otra forma de hacer el ejercicio 1 */
+
 for $baile in bailes/baile/nombre/text()
 return $baile
 
@@ -86,6 +87,15 @@ return
     <precio>{$baile/precio/text()}</precio>
 </baile>
 
+/* Otra forma de hacer el ejercicio 2 */
+
+for $baile in bailes/baile
+return 
+<baile>
+    <precio> {$baile/precio/text()}</precio>
+    <nombre>{$baile/nombre/text()}</nombre>
+</baile>
+
 3. Muestra el nombre y precio de todos los bailes donde su precio es mayor que 40.
 
 for $baile in bailes/baile
@@ -96,3 +106,10 @@ return
     <nombre>{$baile/nombre/text()}</nombre>
     <precio>{$baile/precio/text()}</precio>
 </baile>
+
+
+/* Otra forma de hacer el ejercicio 3 */
+
+for $bailes/baile in bailes/baile
+where $baile/precio > 40
+return $baile/nombre/text()
