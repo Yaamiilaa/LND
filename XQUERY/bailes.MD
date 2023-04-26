@@ -72,6 +72,10 @@
 for $baile in bailes/baile
 return $baile/nombre
 
+/* Otra forma de hacer el ejercicio 1 */
+for $baile in bailes/baile/nombre/text()
+return $baile
+
 2. Muestra el nombre y precio de todos los bailes.
 
 for $baile in bailes/baile
