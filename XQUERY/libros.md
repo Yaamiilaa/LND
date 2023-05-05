@@ -41,9 +41,15 @@ for $book in bookstore/book/title return $book
 
 ### 2.	Mostrar los libros cuyo precio sea menor o igual a 30. Primero incluyendo la condición en la cláusula "where" y luego en la ruta del XPath.
 
-
+for $book in bookstore/book/price
+where $book <= 30
+return $book
 
 ### 3.	Mostrar sólo el título de los libros cuyo precio sea menor o igual a 30.
+
+for $book in bookstore/book
+where $book/price <= 30
+return $book/title
 
 ### 4.	Mostrar sólo el título sin atributos de los libros cuyo precio sea menor o igual a 30.
 
