@@ -53,20 +53,73 @@ return $book/title
 
 ### 4.	Mostrar sólo el título sin atributos de los libros cuyo precio sea menor o igual a 30.
 
+for $book in bookstore/book
+where $book/price <= 30
+return $book/title/text()
+
 ### 5.	Mostrar el título y el autor de los libros del año 2005, y etiquetar cada uno de ellos con "lib2005".
+
+for $book in bookstore/book
+where $book/year = 2005
+return <lib2005>
+<titulo>{$book/title/text()}</titulo>
+<autor>{$book/author/text()}</autor>
+</lib2005
 
 ### 6.	Mostrar los años de publicación, primero con "for" y luego con "let" para comprobar la diferencia entre ellos. Etiquetar la salida con "publicacion".
 
+for $book in bookstore/book/year
+return <publicacion>{$book/text()}</publicacion>
+
+let $book := bookstore/book/year
+return <publicacion>{$book/text()}</publicacion>
+
 ### 7.	Mostrar los libros ordenados primero por "category" y luego por "title" en una sola consulta.
 
+for $book in bookstore/book
+order by $book/@category
+order by $book/title
+return  $book 
+  
 ### 8.	Mostrar cuántos libros hay, y etiquetarlo con "total".
+
+let $total := count(for $book in bookstore/book
+return $book)
+return <total>{$total}</total>
 
 ### 9.	Mostrar los títulos de los libros y al final una etiqueta con el número total de libros.
 
+let $total := count (/bookstore/book),
+$titles := (
+for $book in /bookstore/book/title
+return <titles>{$book/text()}</titles>)
+return<resultados>
+<title>{$titles}</title>
+<total>{$total}</total>
+</resultados>
+
+
 ### 10.	Mostrar el precio mínimo y máximo de los libros.
+
+let $min := min(bookstore/book/price)
+let $max := max(bookstore/book/price)
+return <resultados>
+<max>{$max}</max>
+<min>{$min}</min>
+</resultados
 
 ### 11.	Mostrar el título del libro, su precio y su precio con el IVA incluido, cada uno con su propia etiqueta. Ordénalos por precio con IVA.
 
+ let $title := (for $book in bookstore/book/title
+return $book)
+let $price := (for $book in bookstore/book/price return $book)
+let $price_iva := (for $book in bookstore/book/price return $book * 1.21)
+return <resultados>
+<titulo>{$title}</titulo>
+<price>{$price}</price>
+<price_with_iva>{$price_iva}</price_with_iva>
+</resultados>
+  
 ### 12.	Mostrar la suma total de los precios de los libros con la etiqueta "total".
 
 ### 13.	Mostrar cada uno de los precios de los libros, y al final una nueva etiqueta con la suma de los precios.
