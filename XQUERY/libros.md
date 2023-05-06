@@ -122,22 +122,77 @@ return <resultados>
   
 ### 12.	Mostrar la suma total de los precios de los libros con la etiqueta "total".
 
+let $total := /bookstore/book/price
+return <total>{sum($total)}</total>
+
 ### 13.	Mostrar cada uno de los precios de los libros, y al final una nueva etiqueta con la suma de los precios.
+
+let $total := /bookstore/book/price 
+for $price in bookstore/book/price
+return 
+<resultados>
+<price>{$price}</price>
+<total>{sum($total)}</total>
+</resultados>
 
 ### 14.	Mostrar el título y el número de autores que tiene cada título en etiquetas diferentes.
 
+for $book in /bookstore/book
+return 
+<libro>
+<title>{$book/title/text()}</title>
+<autores>{count($book/author)}</autores>
+</libro>
+
 ### 15.	Mostrar en la misma etiqueta el título y entre paréntesis el número de autores que tiene ese título.
+
+for $book in /bookstore/book
+return 
+<libro>
+{$book/title/text()} ({count($book/author)})
+</libro>
 
 ### 16.	Mostrar los libros escritos en años que terminen en "3".
 
+for $book in bookstore/book/year
+where ends-with($book, '3')
+return $book
+
 ### 17.	Mostrar los libros cuya categoría empiece por "C".
+
+for $book in bookstore/book/@category
+where starts-with($book, 'C')
+return $book
 
 ### 18.	Mostrar los libros que tengan una "X" mayúscula o minúscula en el título.
 
+for $book in bookstore/book/title
+where contains($book, 'x') or contains($book, 'X')
+return $book/text()
+
 ### 19.	Mostrar el título y el número de caracteres que tiene cada título, cada uno con su propia etiqueta.
+
+for $book in bookstore/book/title/text()
+return <books>
+<title>{$book}</title>
+<length>{string-length($book)}</length>
+</books>
 
 ### 20.	Mostrar todos los años en los que se ha publicado un libro eliminando los repetidos. Etiquétalos con "año".
 
+for $book in distinct-values(bookstore/book/year)
+return <año>{$book}</año>
+
 ### 21.	Mostrar todos los autores eliminando los que se repiten y ordenados por el número de caracteres que tiene cada autor.
 
+for $book in distinct-values(bookstore/book/author)
+order by string-length($book)
+return <author>{$book}</author>
+
 ### 22.	Mostrar los títulos en una tabla de HTML.
+
+for $book in bookstore/book/title/text()
+return 
+<tr>
+<td>{$book}</td>
+</tr>
