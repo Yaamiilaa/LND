@@ -76,11 +76,38 @@ En el apartado anterior vemos como vamos a crear nuestro usuario y nuestra base 
 
 ## Crea un sitio web. <a name= 'web'>
 
+  
+Para crear nuestro propio sitio web deberemos ir al apartado de aplicaciones en 
 ## ¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto. <a name='editar'>
 
 ## Instala y prueba otro módulo que consideres interesante. <a name='instalar'>
 
 ## Crea tu propio módulo de Odoo. <a name='crear'>
+Para crear nuestro propio módulo desde la **terminal**. A continuación se mostrarán los pasos que se deben de seguir para poder crear nuestro propio módulo:
+
+1. Abrir la terminal en modo **admnistrador**.
+2. Abrir la carpeta **server** de Odoo como se muestra en la siguiente imagen.
+3. Crear una carpeta. La podemos llamar como quieras, en mi caso, la llamé *module_addons*.
+3. Escribir el siguiente comando: 
+  ```
+  "C:\Program Files\Odoo 16.0.20210517\python\python.exe" odoo-bin scaffold custom_module custom_addons
+  ```
+Gracias a este comando, podemos crear nuestro módulo en la carpeta seleccionada.
   
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_8.png>)
+  
+</div>
+
+Una vez realizado este paso, deberemos abrir **Sublime Text** para poder añadir la carpera que creamos anteriormente en la configuración de Odoo. 
+
+Esto, lo haremos en el archivo *odoo.conf* en *addons_path*. 
+  
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_9.png>)
+  
+</div>
   
 </div>
