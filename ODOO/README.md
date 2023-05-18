@@ -75,9 +75,24 @@ Después de esto, la instalación empieza a descargarse. Este proceso durrá un 
 En el apartado anterior vemos como vamos a crear nuestro usuario y nuestra base de datos.
 
 ## Crea un sitio web. <a name= 'web'>
-
+Para crear nuestro propio sitio web deberemos ir al apartado de aplicaciones del siguiente [enlace](<localhost:8069/>). Ahora nos dirigimos al apartado de *Sitios Web* y activaremos el primer módulo.
   
-Para crear nuestro propio sitio web deberemos ir al apartado de aplicaciones en 
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_14.png>)
+  
+</div>
+  
+Esta acción de activar el módulo anterior, nos dirigirá a una página donde comanzará el proceso de creación de nuestra propia página web. 
+
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_10.png>)
+  
+</div>
+  
+Una vez seleccionada una apción de las anteriores nos seguirá preguntando cosas de nuestra página para que al crearla tenga todo lo que le hemos especificado.
+
 ## ¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto. <a name='editar'>
 
 ## Instala y prueba otro módulo que consideres interesante. <a name='instalar'>
