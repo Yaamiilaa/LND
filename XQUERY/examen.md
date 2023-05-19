@@ -150,10 +150,6 @@ return
 
 ### 20. Encuentra todos los directores que han dirigido películas en más de un género y muestra el nombre de cada director junto con los géneros en los que ha trabajado.
 
-for $director in distinct-values(libreria/pelicula/director)
-for $genre in distinct-values(libreria/pelicula/[director = $director]/género)
-where count($genre) > 1
-return <result>
+for $director in distinct-values(libreria/pelicula/director) for $genre in distinct-values(libreria/pelicula/[director = $director]/género) where count($genre) > 1 return <result> <género>{$genre}</género> 
 <director>{$director}</director>
-<género>{$genre}</género>
 </result>
