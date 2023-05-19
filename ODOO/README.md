@@ -91,7 +91,15 @@ Esta acción de activar el módulo anterior, nos dirigirá a una página donde c
   
 </div>
   
-Una vez seleccionada una apción de las anteriores nos seguirá preguntando cosas de nuestra página para que al crearla tenga todo lo que le hemos especificado.
+Una vez seleccionada una de las opciones anteriores nos seguirá preguntando cosas de nuestra página para que al crearla tenga todo lo que le hemos especificado.
+  
+Por último, nos aparecerá un mensaje en la pantalla como que la página web se está creando. El mensaje será igual o parecido al siguiente.
+  
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_11.png>)
+  
+</div>
 
 ## ¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto. <a name='editar'>
 
