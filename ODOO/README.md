@@ -10,18 +10,36 @@ La actividad consiste en realizar la instalación y despliegue del ERP Odoo.
 </div>
 
 # índice:
-  
 1. [Introducción.](#introduccion)
-2. [Descarga e instala Odoo.](#odoo)
-3. [Crea el usuario y la base de datos principal.](#usuario)
-4. [Crea un sitio web.](#web)
-5. [¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto.](#editar)
-6. [Instala y prueba otro módulo que consideres interesante.](#instalar)
-7. [Crea tu propio módulo de Odoo.](#crear)
+###  Primera parte:
+1. [Descarga e instala Odoo.](#odoo)
+2. [Crea el usuario y la base de datos principal.](#usuario)
+3. [Crea un sitio web.](#web)
+4. [¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto.](#editar)
+5. [Instala y prueba otro módulo que consideres interesante.](#instalar)
+6. [Crea tu propio módulo de Odoo.](#crear)
+
+### Segunda parte:
+1. [¿Cuáles son las principales características y funcionalidades del ERP de Odoo?](#funcionalidades)
+2. [¿Cómo puede el ERP de Odoo ayudar a las empresas a mejorar su eficiencia operativa?](#ERP)
+3. [¿Qué módulos y aplicaciones adicionales ofrece Odoo para complementar su funcionalidad de ERP?](#empresas)
+4. [¿Cuáles son las ventajas de utilizar el ERP de Odoo en comparación con otros sistemas similares en el mercado?](#mercado)
+5. [¿Cuáles son los requisitos técnicos para implementar el ERP de Odoo en una empresa y qué consideraciones se deben tener en cuenta antes de iniciar la implementación?](#implementacion)
+
+### Tercera parte:
+1. [Descargar e instalar usando docker o MV el ERP Odoo.](#descargar)
+2. [Crea el usuario y la base de datos principal.](#principal)
+3. [Crea un sitio web.](#sitio)
+4. [¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto.](#gusto)
+5. [Instala y prueba el módulo de foro (Forum) desde la sección Apps.](#foro)
+6. [Desinstala el módulo de foro.](#desinstala)
+7. [Instala y prueba otro módulo que consideres interesante.](#interesante)
+8. [Crea tu propio módulo de Odoo. En este paso, el objetivo es crear una estructura de archivos compatible con Odoo y que aparezca en la lista de Apps de la UI de Odoo.](#UI)
 
 ## Introducción. <a name='introduccion'>
 Odoo es un paquete de aplicaciones, en principio dirigido a empresas, tanto grandes, pequeñas o medianas empresas, que permite gestionar de forma global todas las necesidades que se tengan en esa empresa, desde compras, ventas contabilidad, facturación, nóminas, gestión de redes sociales, recursos humanos y una infinidad de aspectos que se pueden gestionar desde el mismo software.
-  
+
+# Primera parte
 ## Descraga e instala Odoo. <a name= 'odoo'>
 Para la instalación de Odoo en Windows tenemos que dirigirnos a esta [página](<https://www.odoo.com/es_ES/page/download>) y rellenar los campos con nuestros propios datos. 
 
@@ -156,3 +174,33 @@ Esto, lo haremos en el archivo *odoo.conf* en *addons_path*.
 </div>
   
 </div>
+
+# Segunda parte
+
+## ¿Cuáles son las principales características y funcionalidades del ERP de Odoo? <a name='funcionalidades'>
+  
+## ¿Cómo puede el ERP de Odoo ayudar a las empresas a mejorar su eficiencia operativa? <a name='ERP'>
+  
+## ¿Qué módulos y aplicaciones adicionales ofrece Odoo para complementar su funcionalidad de ERP? <a name='empresas'>
+  
+## ¿Cuáles son las ventajas de utilizar el ERP de Odoo en comparación con otros sistemas similares en el mercado? <a name='mercado'>
+  
+## ¿Cuáles son los requisitos técnicos para implementar el ERP de Odoo en una empresa y qué consideraciones se deben tener en cuenta antes de iniciar la implementación? <a name'implementacion'>
+
+# Tercera parte
+  
+## Descargar e instalar usando docker o MV el ERP Odoo. <a name='descargar'>  
+  
+## Crea el usuario y la base de datos principal. <a name='principal'>
+  
+## Crea un sitio web. <a name='sitio'>
+  
+## ¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto. <a name='gusto'>
+  
+## Instala y prueba el módulo de foro (Forum) desde la sección Apps. <a name='foro'>
+  
+## Desinstala el módulo de foro. <a name='desinstala'>
+  
+## Instala y prueba otro módulo que consideres interesante. <a name='interesante'>
+  
+## Crea tu propio módulo de Odoo. En este paso, el objetivo es crear una estructura de archivos compatible con Odoo y que aparezca en la lista de Apps de la UI de Odoo. <a name='UI'>
