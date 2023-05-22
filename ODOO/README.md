@@ -102,9 +102,31 @@ Por último, nos aparecerá un mensaje en la pantalla como que la página web se
 </div>
 
 ## ¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto. <a name='editar'>
+Para editar nuestro sitio web deberemos acceder a ella. Primero deberemos darle click al cuadradito en la esquina superior izquierda. Una vez realizado este paso, se nos abrirá un desplegable donde deberemos clicar en *Sitio web*.
 
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_15.png>)
+  
+</div>
+
+Después, deberemos buscar un botón que pone *Editar*. Ahora podemos empezar a editar nuestra página web a nuestro gusto.
+  
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_16.png>)
+  
+</div>  
+  
 ## Instala y prueba otro módulo que consideres interesante. <a name='instalar'>
+Entre todos los módulos que he visto el más interesante es uno de hacer reuniones. Una vez activado, se nos abre en una nueva pestaña.
 
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_17.png>)
+  
+</div>  
+  
 ## Crea tu propio módulo de Odoo. <a name='crear'>
 Para crear nuestro propio módulo desde la **terminal**. A continuación se mostrarán los pasos que se deben de seguir para poder crear nuestro propio módulo:
 
