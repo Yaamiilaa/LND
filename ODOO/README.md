@@ -178,6 +178,9 @@ Esto, lo haremos en el archivo *odoo.conf* en *addons_path*.
 # Segunda parte
 
 ## ¿Cuáles son las principales características y funcionalidades del ERP de Odoo? <a name='funcionalidades'>
+Es una herramienta que permite digitalizar, planificar y controlar los recursos de una empresa. Las posibilidades que ofrece por lo tanto son la garantía de organizar y gestionar todo la información y recursos de forma automatizada y rápida, evitando por lo tanto la pérdida de datos. Odoo ERP se encarga de gestionar en una sola plataforma, toda la información de los distintos departamentos de una empresa, desde recursos humanos, control de stock e inventario, facturación o proyectos.
+
+Odoo ERP te ofrece la posibilidad e integrar todas estas herramientas en una sola para que tu empresa funcione de forma más efectiva. C onsigue unificar toda la gestión de tu empresa en un mismo software. Disminuye la eficiencia, tiempo y posiblemente la pérdida económica centralizando toda la información en un único lugar. Gestiona, controla y revisa todo lo que ocurre en tu empresa desde el móvil y ordenador. 
   
 ## ¿Cómo puede el ERP de Odoo ayudar a las empresas a mejorar su eficiencia operativa? <a name='ERP'>
   
