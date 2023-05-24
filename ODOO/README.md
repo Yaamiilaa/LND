@@ -172,8 +172,14 @@ Esto, lo haremos en el archivo *odoo.conf* en *addons_path*.
 ![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_9.png>)
   
 </div>
+
+Para que salga nuestro propio módulo tenemos que reiniciar el servicio de **Odoo** y el servicio de **Postgrest**. Esto hará que al actualizar la lista de aplicaciones y buscar nuestro módulo, en lochalhost nos salga nuestro módulo.
   
-</div>
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_18.png>)
+  
+</div> 
 
 # Segunda parte
 
@@ -287,3 +293,6 @@ Estas son consideraciones generales para la implementación de Odoo, pero es imp
 ## Instala y prueba otro módulo que consideres interesante. <a name='interesante'>
   
 ## Crea tu propio módulo de Odoo. En este paso, el objetivo es crear una estructura de archivos compatible con Odoo y que aparezca en la lista de Apps de la UI de Odoo. <a name='UI'>
+
+  
+</div>
