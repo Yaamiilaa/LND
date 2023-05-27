@@ -335,7 +335,7 @@ Para editar la página web a nuestro gusto tenemos que ir a la esquina superior 
 
 <div align='center'>
 
-![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_34`.pnng>)
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_34.pnng>)
 
 </div>
 
