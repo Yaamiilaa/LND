@@ -279,7 +279,17 @@ Estas son consideraciones generales para la implementación de Odoo, pero es imp
 # Tercera parte
   
 ## Descargar e instalar usando docker o MV el ERP Odoo. <a name='descargar'>  
+En mi caso he utilizado la máuina virtual para poder descargarme el **ERP Odoo**. Para ello, utilicé el siguiente enlace *https://bitnami.com/stack/odoo/virtual-machine*. 
+Una vez descargado el archovo .ova, abrimos **virtuaal box** y en el apartado de herramientas le damos a importar máquina. 
   
+  
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_20ng>)
+  
+</div>
+  
+Después, la brimos y se abrirá una máquina que nos da un enlace para poder configurar el ERP Odoo. A parte, nos da el usuario y la contraseña de la máuina virtual y del ERP Odoo. 
 ## Crea el usuario y la base de datos principal. <a name='principal'>
   
 ## Crea un sitio web. <a name='sitio'>
