@@ -280,20 +280,20 @@ Estas son consideraciones generales para la implementación de Odoo, pero es imp
 En mi caso he utilizado la máuina virtual para poder descargarme el **ERP Odoo**. Para ello, utilicé el siguiente enlace *https://bitnami.com/stack/odoo/virtual-machine*. 
 Una vez descargado el archovo .ova, abrimos **virtuaal box** y en el apartado de herramientas le damos a importar máquina. 
   
+ <div align='center'>
   
-<div align='center'>
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_20.png>)
   
-![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_20ng>)
-  
-</div>
+</div>  
+
   
 Después, la abrimos y se abrirá una máquina que nos da un enlace para poder configurar el ERP Odoo. A parte, nos da el usuario y la contraseña de la máuina virtual y del ERP Odoo. 
 
-<div aling='center'>
-
-|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_21ng>)
-
-</div>
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_21.png>)
+  
+</div> 
 
 ## Crea el usuario y la base de datos principal. <a name='principal'>
   
