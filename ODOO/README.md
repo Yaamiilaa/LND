@@ -307,8 +307,8 @@ Una vez introducida la url que nos proporciona la maquina virtual, tenemos que p
 Una vez realizado el paso anterior, se abre la página de Odoo. Ahora tenemos que ir al apartado de *sitios web* para poder crear nuestro sitio web. Despuués activamos el primer módulo que nos sale.
 
 <div align='center'>
-
-|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_27.png>)
+ 
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_27.png>)
 
 </div>
 
@@ -317,14 +317,14 @@ Ahora, si podemos crear nuestra propia páquina a nuestro gusto como se muestra 
 
 <div align='center'>
 
-|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_29.png>)
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_29.png>)
 
 </div>
 
 
 <div align='center'>
-
-|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_30.png>)
+ 
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_30.png>)
 
 </div>
 
@@ -334,7 +334,7 @@ Para editar la página web a nuestro gusto tenemos que ir a la esquina superior 
 
 <div align='center'>
 
-|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_34`.pnng>)
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_34`.pnng>)
 
 </div>
 
@@ -343,7 +343,7 @@ Para instalar el módulo **Forum**, solo tenemos que buscarlo en la página de O
 
 <div align='center'>
 
-|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_36.png>)
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_36.png>)
 
 </div>
 
@@ -352,7 +352,7 @@ Y para desinstalarlo le tenemos que realizar los pasos anteriores y darle a los 
 
 <div align='center'>
 
-|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_37.png>)
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_37.png>)
 
 </div>
 
@@ -360,7 +360,7 @@ Después de este paso, se nos abrirá una pestaña para confirmar dicha deinstal
 
 <div align='center'>
 
-|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_38.png>)
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_38.png>)
 
 </div>
 
