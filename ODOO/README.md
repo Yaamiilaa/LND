@@ -33,8 +33,6 @@ La actividad consiste en realizar la instalación y despliegue del ERP Odoo.
 4. [¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto.](#gusto)
 5. [Instala y prueba el módulo de foro (Forum) desde la sección Apps.](#foro)
 6. [Desinstala el módulo de foro.](#desinstala)
-7. [Instala y prueba otro módulo que consideres interesante.](#interesante)
-8. [Crea tu propio módulo de Odoo. En este paso, el objetivo es crear una estructura de archivos compatible con Odoo y que aparezca en la lista de Apps de la UI de Odoo.](#UI)
 
 ## Introducción. <a name='introduccion'>
 Odoo es un paquete de aplicaciones, en principio dirigido a empresas, tanto grandes, pequeñas o medianas empresas, que permite gestionar de forma global todas las necesidades que se tengan en esa empresa, desde compras, ventas contabilidad, facturación, nóminas, gestión de redes sociales, recursos humanos y una infinidad de aspectos que se pueden gestionar desde el mismo software.
@@ -289,20 +287,84 @@ Una vez descargado el archovo .ova, abrimos **virtuaal box** y en el apartado de
   
 </div>
   
-Después, la brimos y se abrirá una máquina que nos da un enlace para poder configurar el ERP Odoo. A parte, nos da el usuario y la contraseña de la máuina virtual y del ERP Odoo. 
+Después, la abrimos y se abrirá una máquina que nos da un enlace para poder configurar el ERP Odoo. A parte, nos da el usuario y la contraseña de la máuina virtual y del ERP Odoo. 
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_21ng>)
+
+</div>
+
 ## Crea el usuario y la base de datos principal. <a name='principal'>
   
 ## Crea un sitio web. <a name='sitio'>
-  
+Una vez introducida la url que nos proporciona la maquina virtual, tenemos que poner el usuario y la contraseña que nos también nos proporciona dicha máquina.
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_23ng>)
+
+</div>
+
+Una vez realizado el paso anterior, se abre la página de Odoo. Ahora tenemos que ir al apartado de *sitios web* para poder crear nuestro sitio web. Despuués activamos el primer módulo que nos sale.
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_27ng>)
+
+</div>
+
+Ahora, si podemos crear nuestra propia páquina a nuestro gusto como se muestra a continuación en las siguientes imágenes.
+
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_29ng>)
+
+</div>
+
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_30ng>)
+
+</div>
+
 ## ¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto. <a name='gusto'>
-  
+Para editar la página web a nuestro gusto tenemos que ir a la esquina superior derecha y cliacar en editar.
+
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_34ng>)
+
+</div>
+
 ## Instala y prueba el módulo de foro (Forum) desde la sección Apps. <a name='foro'>
-  
+Para instalar el módulo **Forum**, solo tenemos que buscarlo en la página de Odoo en el apartado de aplicaciones y y darle a instalar.
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_36ng>)
+
+</div>
+
 ## Desinstala el módulo de foro. <a name='desinstala'>
-  
-## Instala y prueba otro módulo que consideres interesante. <a name='interesante'>
-  
-## Crea tu propio módulo de Odoo. En este paso, el objetivo es crear una estructura de archivos compatible con Odoo y que aparezca en la lista de Apps de la UI de Odoo. <a name='UI'>
+Y para desinstalarlo le tenemos que realizar los pasos anteriores y darle a los tres puntos y clicar en la opción de *uninstall*.
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_37ng>)
+
+</div>
+
+Después de este paso, se nos abrirá una pestaña para confirmar dicha deinstalación. Lo único que tenemos que hacer ahora es darle a confirmar.
+
+<div aling='center'>
+
+|[Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_38ng>)
+
+</div>
 
   
 </div>
