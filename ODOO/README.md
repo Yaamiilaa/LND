@@ -303,6 +303,7 @@ Una vez introducida la url que nos proporciona la maquina virtual, tenemos que p
 ![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_23.png>)
   
 </div> 
+  
 ## Crea un sitio web. <a name='sitio'>
 Una vez realizado el paso anterior, se abre la página de Odoo. Ahora tenemos que ir al apartado de *sitios web* para poder crear nuestro sitio web. Despuués activamos el primer módulo que nos sale.
 
