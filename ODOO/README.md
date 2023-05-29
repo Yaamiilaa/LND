@@ -366,7 +366,7 @@ Después de este paso, se nos abrirá una pestaña para confirmar dicha deinstal
 
 </div>
 
-## Instala y prueba otro módulo que consideres interesante.
+## Instala y prueba otro módulo que consideres interesante. <a name='otro'>
 Un módulo de Odoo que me parece interesante es *Compra*. Una vez intalada, se nos abrirá una nueva pestaña.  
 
 <div align='center'>
