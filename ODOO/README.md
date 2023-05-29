@@ -33,6 +33,7 @@ La actividad consiste en realizar la instalación y despliegue del ERP Odoo.
 4. [¿Cómo editamos nuestra página web? Edítala y diséñala a tu gusto.](#gusto)
 5. [Instala y prueba el módulo de foro (Forum) desde la sección Apps.](#foro)
 6. [Desinstala el módulo de foro.](#desinstala)
+7. [Instala y prueba otro módulo que consideres interesante.](#otro)
 
 ## Introducción. <a name='introduccion'>
 Odoo es un paquete de aplicaciones, en principio dirigido a empresas, tanto grandes, pequeñas o medianas empresas, que permite gestionar de forma global todas las necesidades que se tengan en esa empresa, desde compras, ventas contabilidad, facturación, nóminas, gestión de redes sociales, recursos humanos y una infinidad de aspectos que se pueden gestionar desde el mismo software.
@@ -365,5 +366,13 @@ Después de este paso, se nos abrirá una pestaña para confirmar dicha deinstal
 
 </div>
 
+## Instala y prueba otro módulo que consideres interesante.
+Un módulo de Odoo que me parece interesante es *Compra*. Una vez intalada, se nos abrirá una nueva pestaña.  
+
+<div align='center'>
+  
+![Imagen 1](<https://github.com/Yaamiilaa/LND/blob/main/img/cap_17.png>)
+  
+</div>  
   
 </div>
